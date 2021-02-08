@@ -1,0 +1,25 @@
+{
+  "name": "os-check",
+  "version": "1.0.0",
+  "description": "Check which OS it is from browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maifeeulasad/os-check.git"
+  },
+  "keywords": [
+    "os",
+    "check",
+    "web",
+    "mua"
+  ],
+  "author": "Maifee Ul Asad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maifeeulasad/os-check/issues"
+  },
+  "homepage": "https://github.com/maifeeulasad/os-check#readme"
+}
