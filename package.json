@@ -1,10 +1,11 @@
 {
   "name": "os-check",
-  "version": "1.0.0",
-  "description": "Check which OS it is from browser",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Check OS of the host system",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/maifeeulasad/os-check/issues"
   },
-  "homepage": "https://github.com/maifeeulasad/os-check#readme"
+  "files": ["lib"],
+  "homepage": "https://github.com/maifeeulasad/os-check#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
