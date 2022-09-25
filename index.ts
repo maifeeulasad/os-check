@@ -1,10 +1,10 @@
 enum OsType {
-  MacOS,
-  iOS,
-  Windows,
-  Android,
-  Linux,
-  Others,
+  MacOS = "MacOS",
+  iOS = "iOS",
+  Windows = "Windows",
+  Android = "Android",
+  Linux = "Linux",
+  Others = "Others OS",
 }
 
 const osCheck = (): OsType => {
@@ -34,4 +34,4 @@ const osCheck = (): OsType => {
   return OsType.Others;
 };
 
-export { osCheck };
+export { osCheck, OsType };
