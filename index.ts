@@ -33,3 +33,5 @@ const osCheck = (): OsType => {
   }
   return OsType.Others;
 };
+
+export { osCheck };
