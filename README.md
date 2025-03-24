@@ -1,5 +1,29 @@
 # os-check
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/os-check">
+    <img src="https://img.shields.io/npm/v/os-check.svg" alt="npm version">
+  </a>
+  <a href="https://badgen.net/bundlephobia/min/os-check">
+    <img src="https://badgen.net/bundlephobia/min/os-check&cache-control=no-cache" alt="minified">
+  </a>
+  <a href="https://badgen.net/bundlephobia/minzip/os-check">
+    <img src="https://badgen.net/bundlephobia/minzip/os-check&cache-control=no-cache" alt="minified + gzipped">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/maifeeulasad/os-check/stargazers">
+    <img src="https://img.shields.io/github/stars/maifeeulasad/os-check" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/maifeeulasad/os-check/watchers">
+    <img src="https://img.shields.io/github/watchers/maifeeulasad/os-check" alt="GitHub watchers">
+  </a>
+  <a href="https://img.shields.io/github/commits-since/maifeeulasad/os-check/latest/main?include_prereleases">
+    <img src="https://img.shields.io/github/commits-since/maifeeulasad/os-check/latest/main?include_prereleases" alt="Commits after release">
+  </a>
+</p>
+
 NPM : https://www.npmjs.com/package/os-check
 
 ```
