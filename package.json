@@ -2,7 +2,7 @@
   "name": "os-check",
   "version": "2.4.0",
   "description": "Check OS of the host system",
-  "main": "index.ts",
+  "main": "lib/index.js",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc"
