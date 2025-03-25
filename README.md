@@ -41,6 +41,7 @@ import { osCheck, OsType } from "os-check";
 
 const App = () => {
   useEffect(() => {
+    // only for testing purposes
     // alert(osCheck())
   }, []);
   return (
