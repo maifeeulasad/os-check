@@ -1,4 +1,7 @@
-# os-check
+# os-check [![NPM Downloads][downloads-image]][downloads-url]
+
+[downloads-image]: https://img.shields.io/npm/dm/os-check.svg
+[downloads-url]: https://npmcharts.com/compare/os-check?minimal=true
 
 <p align="center">
   <a href="https://www.npmjs.com/package/os-check">
