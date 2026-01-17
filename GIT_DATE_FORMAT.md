@@ -20,11 +20,14 @@ This repository includes a `.gitconfig` file with proper date formatting configu
 
 ### How to Use
 
-To adopt these settings for this repository, run:
+To adopt these settings for this repository, run from the repository root:
 
 ```bash
-git config --local include.path ../.gitconfig
+cd /path/to/os-check
+git config --local include.path "$(pwd)/.gitconfig"
 ```
+
+Or copy the configuration manually to `.git/config`.
 
 ### Correct Git Log Formats
 

@@ -14,4 +14,4 @@
 
 [format]
 	# Default pretty format for git commands
-	pretty = %C(yellow)%h%C(reset) - %C(green)(%ad)%C(reset) %s %C(bold blue)<%an>%C(reset)
+	pretty = format:%C(yellow)%h%C(reset) - %C(green)(%ad)%C(reset) %s %C(bold blue)<%an>%C(reset)
