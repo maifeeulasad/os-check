@@ -1,0 +1,17 @@
+[log]
+	# Default date format for git log
+	# This ensures dates are always displayed with year properly rendered
+	date = format:%Y, %d / %m
+
+[alias]
+	# Properly formatted git log showing: hash - date - message
+	# Usage: git logdate
+	logdate = log --pretty=format:'%h - %ad - %s' --date=format:'%Y, %d / %m'
+	
+	# Alternative: show log with full ISO date
+	# Usage: git logfull
+	logfull = log --pretty=format:'%h - %ad - %s <%an>' --date=iso
+
+[format]
+	# Default pretty format for git commands
+	pretty = %C(yellow)%h%C(reset) - %C(green)(%ad)%C(reset) %s %C(bold blue)<%an>%C(reset)
